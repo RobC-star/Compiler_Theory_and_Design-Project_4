@@ -1,0 +1,16 @@
+-- semantic14d.txt
+-- If Elsif Else Mismatch
+
+function main returns integer;
+begin
+    if 9 < 10 then
+        1;
+    elsif 8 = 1 then
+        7;
+    elsif 7 = 10 then
+        8;
+    else 
+        3;
+    endif;
+end;
+

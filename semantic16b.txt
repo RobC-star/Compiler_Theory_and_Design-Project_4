@@ -1,0 +1,8 @@
+-- semantic16b.txt
+-- Narrowing Variable Initialization
+
+function main returns real;
+    b: real is 5.5 * 2;
+begin
+    b + 1;
+end;

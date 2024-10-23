@@ -1,0 +1,10 @@
+// semantic12a.txt
+// Using Character Literal with Exponentiation Operator
+//     and Negation Operator
+
+function main returns integer;
+    c: character is ~1;
+begin
+    5 ^ 1.5;
+end;
+

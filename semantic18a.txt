@@ -1,0 +1,13 @@
+-- semantic18a.txt
+-- S18a Duplicate Scalar and List Variables
+
+function main returns integer;
+    scalar: integer is 4 * 2;
+    b_scalar: character is 'b';
+    c_scalar: integer is 4 * 2;
+    a_list: list of integer is (4, 2);
+    b_list: list of real is (2.3, 4.4);
+    c_list: list of real is (2.3, 4.4);
+begin
+    1;
+end;

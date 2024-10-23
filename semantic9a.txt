@@ -1,0 +1,8 @@
+// semantic9a.txt
+// List Type Does Not Match Element Types
+
+function main returns integer;
+    aList: list of integer is (1.5, 2.5, 3.5);
+begin
+    aList(1);
+end;

@@ -1,0 +1,8 @@
+// semantic1.txt
+// Variable Initialization Mismatch
+
+function main returns integer;
+    value: integer is 'A';
+begin
+    1;
+end;

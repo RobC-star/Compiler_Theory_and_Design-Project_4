@@ -1,0 +1,8 @@
+// semantic9.txt
+// List Type Does Not Match Element Types
+
+function main returns character;
+    aList: list of character is (1, 2, 3);
+begin
+    aList(1);
+end;

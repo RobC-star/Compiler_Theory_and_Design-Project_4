@@ -1,0 +1,8 @@
+-- semantic16a.txt
+-- Narrowing Variable Initialization
+
+function main returns integer;
+    b: integer is 5.5 * 2;
+begin
+    b + 1;
+end;

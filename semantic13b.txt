@@ -1,0 +1,7 @@
+// semantic13b.txt
+// Mixing Real Literals with the Remainder Operator
+
+function main returns integer;
+begin
+    10 % 4;
+end;

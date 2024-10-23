@@ -1,0 +1,7 @@
+// semantic6.txt
+// Undeclared Scalar Variable
+
+function main returns integer;
+begin
+    2 * b + 3;
+end;

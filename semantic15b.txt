@@ -1,0 +1,7 @@
+// semantic15b.txt
+// Folding a nonnumeric List
+
+function main returns integer;
+begin
+    fold left + (5, 1, 2) endfold;    
+end;

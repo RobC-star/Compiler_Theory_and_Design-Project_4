@@ -1,0 +1,8 @@
+// semantic5.txt
+// Using Character Variable with Arithmetic Operator
+
+function main returns integer;
+    b: character is 'b';
+begin
+    b + 10;
+end;

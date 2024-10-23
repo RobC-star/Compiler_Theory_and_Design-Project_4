@@ -1,0 +1,10 @@
+// semantic12b.txt
+// Using Character Literal with Exponentiation Operator
+//     and Negation Operator
+
+function main returns real;
+    c: real is ~1.0;
+begin
+    5 ^ 1.5;
+end;
+

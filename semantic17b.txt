@@ -1,0 +1,12 @@
+-- semantic17b.txt
+-- Narrowing Function Return
+
+function main returns real;
+    b: real is 6.0 * 2;
+begin
+    if 8 < 0 then
+        b + 3.0;
+    else
+        b * 4.6;
+    endif;
+end;

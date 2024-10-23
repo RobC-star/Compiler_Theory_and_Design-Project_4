@@ -1,0 +1,7 @@
+// semantic15c.txt
+// Folding a nonnumeric List
+
+function main returns real;
+begin
+    fold left + (5.3, 1.5, 2.4) endfold;    
+end;

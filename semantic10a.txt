@@ -1,0 +1,8 @@
+// semantic10a.txt
+// List Subscript is not Integer
+
+function main returns integer;
+    aList: list of integer is (1, 2, 3);
+begin
+    aList('a');
+end;
